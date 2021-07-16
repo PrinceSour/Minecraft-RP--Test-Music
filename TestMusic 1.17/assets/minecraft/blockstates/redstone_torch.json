@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "lit=true":  { "model": "block/torch/floor/redstone/redstone_torch" },
+        "lit=false":  { "model": "block/torch/floor/redstone/redstone_torch_off" }
+    }
+}

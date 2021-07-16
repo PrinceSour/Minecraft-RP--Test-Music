@@ -1,0 +1,6 @@
+{
+    "variants": {
+		"lit=false": { "model": "block/cake/candle/purple_candle_cake" },
+		"lit=true": { "model": "block/cake/candle/purple_candle_cake" }
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "variants": {
+		"lit=false": { "model": "block/cake/candle/light_gray_candle_cake" },
+		"lit=true": { "model": "block/cake/candle/light_gray_candle_cake" }
+    }
+}
