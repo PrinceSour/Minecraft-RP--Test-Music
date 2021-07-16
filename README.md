@@ -1,2 +1,2 @@
 # Minecraft-RP--Test-Music
-random resource pack
+Apek's Custom Resource Pack
