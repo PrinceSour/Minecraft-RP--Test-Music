@@ -6,7 +6,7 @@
 		"2": "block/brewing_stand/brewing_rod",
 		"4": "block/brewing_stand/potion _cork",
 		"5": "block/brewing_stand/potion_templete",
-		"10": "block/brewing_stand/potion_color/potion_templete_overlay_red",
+		"8": "block/brewing_stand/potion_color/potion_templete_overlay_orange",
 		"particle": "block/brewing_stand/brewing_stand"
 	},
 	"elements": [
@@ -1183,12 +1183,12 @@
 			"from": [2.25, 2, 6.25],
 			"to": [5.75, 5.5, 9.75],
 			"faces": {
-				"north": {"uv": [12.5, 12.5, 16, 16], "texture": "#10", "tintindex": 0},
-				"east": {"uv": [12.5, 12.5, 16, 16], "texture": "#10", "tintindex": 0},
-				"south": {"uv": [12.5, 12.5, 16, 16], "texture": "#10", "tintindex": 0},
-				"west": {"uv": [12.5, 12.5, 16, 16], "texture": "#10", "tintindex": 0},
-				"up": {"uv": [12.5, 9, 16, 12.5], "texture": "#10", "tintindex": 0},
-				"down": {"uv": [9, 9.25, 12.5, 12.75], "texture": "#10", "tintindex": 0}
+				"north": {"uv": [12.5, 12.5, 16, 16], "texture": "#8", "tintindex": 0},
+				"east": {"uv": [12.5, 12.5, 16, 16], "texture": "#8", "tintindex": 0},
+				"south": {"uv": [12.5, 12.5, 16, 16], "texture": "#8", "tintindex": 0},
+				"west": {"uv": [12.5, 12.5, 16, 16], "texture": "#8", "tintindex": 0},
+				"up": {"uv": [12.5, 9, 16, 12.5], "texture": "#8", "tintindex": 0},
+				"down": {"uv": [9, 9.25, 12.5, 12.75], "texture": "#8", "tintindex": 0}
 			}
 		},
 		{
@@ -1445,12 +1445,12 @@
 			"from": [10.25, 2, 10.25],
 			"to": [13.75, 5.5, 13.75],
 			"faces": {
-				"north": {"uv": [12.5, 12.5, 16, 16], "texture": "#10", "tintindex": 0},
-				"east": {"uv": [12.5, 12.5, 16, 16], "texture": "#10", "tintindex": 0},
-				"south": {"uv": [12.5, 12.5, 16, 16], "texture": "#10", "tintindex": 0},
-				"west": {"uv": [12.5, 12.5, 16, 16], "texture": "#10", "tintindex": 0},
-				"up": {"uv": [12.5, 9, 16, 12.5], "texture": "#10", "tintindex": 0},
-				"down": {"uv": [9, 9.25, 12.5, 12.75], "texture": "#10", "tintindex": 0}
+				"north": {"uv": [12.5, 12.5, 16, 16], "texture": "#8", "tintindex": 0},
+				"east": {"uv": [12.5, 12.5, 16, 16], "texture": "#8", "tintindex": 0},
+				"south": {"uv": [12.5, 12.5, 16, 16], "texture": "#8", "tintindex": 0},
+				"west": {"uv": [12.5, 12.5, 16, 16], "texture": "#8", "tintindex": 0},
+				"up": {"uv": [12.5, 9, 16, 12.5], "texture": "#8", "tintindex": 0},
+				"down": {"uv": [9, 9.25, 12.5, 12.75], "texture": "#8", "tintindex": 0}
 			}
 		}
 	],
