@@ -1,30 +1,28 @@
 {
 	"credit": "Made with Blockbench",
-	"ambientocclusion": true	,
+	"ambientocclusion": false,
 	"textures": {
-		"0": "block/sugar_cane",
-		"1": "block/sugar_cane_leaves",
-		"particle": "block/sugar_cane"
+		"0": "block/sugar_cane/sugar_cane",
+		"1": "block/sugar_cane/sugar_cane_leaves",
+		"particle": "block/sugar_cane/sugar_cane"
 	},
 	"elements": [
 		{
 			"name": "Cane_L1",
 			"from": [6, 0, 3],
 			"to": [8, 16, 5],
-			"shade": false,
 			"faces": {
 				"north": {"uv": [5, 0, 7, 16], "texture": "#0", "tintindex": 0},
 				"east": {"uv": [5, 0, 7, 16], "texture": "#0", "tintindex": 0},
 				"south": {"uv": [5, 0, 7, 16], "texture": "#0", "tintindex": 0},
 				"west": {"uv": [5, 0, 7, 16], "texture": "#0", "tintindex": 0},
-				"up": {"uv": [3, 14, 5, 16], "texture": "#0", "cullface":"up"}
+				"up": {"uv": [3, 14, 5, 16], "texture": "#0"}
 			}
 		},
 		{
 			"name": "Cane_Leaf_1",
 			"from": [5, 0, 4],
 			"to": [9, 16, 4],
-			"shade": false,
 			"faces": {
 				"north": {"uv": [0, 0, 4, 16], "texture": "#1", "tintindex": 0},
 				"south": {"uv": [4, 0, 0, 16], "texture": "#1", "tintindex": 0}
@@ -35,7 +33,6 @@
 			"from": [7, -4, 2],
 			"to": [7, 12, 6],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 4]},
-			"shade": false,
 			"faces": {
 				"east": {"uv": [4, 0, 0, 16], "texture": "#1", "tintindex": 0},
 				"west": {"uv": [0, 0, 4, 16], "texture": "#1", "tintindex": 0}
@@ -45,7 +42,6 @@
 			"name": "Cane_L2",
 			"from": [4, -2, 11],
 			"to": [6, 14, 13],
-			"shade": false,
 			"faces": {
 				"north": {"uv": [9, 0, 11, 16], "texture": "#0", "tintindex": 0},
 				"east": {"uv": [9, 0, 11, 16], "texture": "#0", "tintindex": 0},
@@ -59,7 +55,6 @@
 			"from": [5, -6, 10],
 			"to": [5, 10, 14],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 4]},
-			"shade": false,
 			"faces": {
 				"east": {"uv": [4, 0, 0, 16], "texture": "#1", "tintindex": 0},
 				"west": {"uv": [8, 0, 12, 16], "texture": "#1", "tintindex": 0}
@@ -69,7 +64,6 @@
 			"name": "Cane_Leaf_4",
 			"from": [3, -2, 12],
 			"to": [7, 14, 12],
-			"shade": false,
 			"faces": {
 				"north": {"uv": [12, 0, 8, 16], "texture": "#1", "tintindex": 0},
 				"south": {"uv": [8, 0, 12, 16], "texture": "#1", "tintindex": 0}
@@ -79,7 +73,6 @@
 			"name": "Cane_L3",
 			"from": [9, -4, 12],
 			"to": [11, 12, 14],
-			"shade": false,
 			"faces": {
 				"north": {"uv": [1, 0, 3, 16], "texture": "#0", "tintindex": 0},
 				"east": {"uv": [1, 0, 3, 16], "texture": "#0", "tintindex": 0},
@@ -92,7 +85,6 @@
 			"name": "Cane_Leaf_5",
 			"from": [8, -4, 13],
 			"to": [12, 12, 13],
-			"shade": false,
 			"faces": {
 				"north": {"uv": [4, 0, 8, 16], "texture": "#1", "tintindex": 0},
 				"south": {"uv": [8, 0, 4, 16], "texture": "#1", "tintindex": 0}
@@ -103,7 +95,6 @@
 			"from": [10, -7, 11],
 			"to": [10, 9, 15],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 4]},
-			"shade": false,
 			"faces": {
 				"east": {"uv": [8, 0, 4, 16], "texture": "#1", "tintindex": 0},
 				"west": {"uv": [4, 0, 8, 16], "texture": "#1", "tintindex": 0}
@@ -114,7 +105,6 @@
 			"from": [2, -3, 7],
 			"to": [4, 13, 8],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 5]},
-			"shade": false,
 			"faces": {
 				"north": {"uv": [13, 0, 15, 16], "texture": "#0", "tintindex": 0},
 				"east": {"uv": [13, 0, 13.5, 16], "texture": "#0", "tintindex": 0},
@@ -127,7 +117,6 @@
 			"name": "Cane_Leaf_7",
 			"from": [1, -3, 7.5],
 			"to": [5, 13, 7.5],
-			"shade": false,
 			"faces": {
 				"north": {"uv": [12, 0, 8, 16], "texture": "#1", "tintindex": 0},
 				"south": {"uv": [12, 0, 16, 16], "texture": "#1", "tintindex": 0}
@@ -138,7 +127,6 @@
 			"from": [3, -3, 6.5],
 			"to": [3, 13, 8.5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 4]},
-			"shade": false,
 			"faces": {
 				"east": {"uv": [16, 0, 12, 16], "texture": "#1", "tintindex": 0},
 				"west": {"uv": [12, 0, 16, 16], "texture": "#1", "tintindex": 0}
@@ -149,7 +137,6 @@
 			"from": [12, -1, 6],
 			"to": [13, 15, 8],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 5]},
-			"shade": false,
 			"faces": {
 				"north": {"uv": [14.5, 0, 15, 16], "texture": "#0", "tintindex": 0},
 				"east": {"uv": [13, 0, 15, 16], "texture": "#0", "tintindex": 0},
@@ -163,7 +150,6 @@
 			"from": [12.5, -1, 5],
 			"to": [12.5, 15, 9],
 			"rotation": {"angle": 0, "axis": "y", "origin": [12.5, 0, 7.5]},
-			"shade": false,
 			"faces": {
 				"east": {"uv": [12, 0, 16, 16], "texture": "#1", "tintindex": 0},
 				"west": {"uv": [12, 0, 8, 16], "texture": "#1", "tintindex": 0}
@@ -174,7 +160,6 @@
 			"from": [11.5, -1, 7],
 			"to": [13.5, 15, 7],
 			"rotation": {"angle": 0, "axis": "y", "origin": [12.5, 0, 7.5]},
-			"shade": false,
 			"faces": {
 				"north": {"uv": [16, 0, 12, 16], "texture": "#1", "tintindex": 0},
 				"south": {"uv": [12, 0, 16, 16], "texture": "#1", "tintindex": 0}
@@ -185,20 +170,24 @@
 		{
 			"name": "Cane Large",
 			"origin": [0, 0, 0],
+			"color": 0,
 			"children": [
 				{
 					"name": "Cane 1",
 					"origin": [0, 0, 0],
+					"color": 0,
 					"children": [0, 1, 2]
 				},
 				{
 					"name": "Cane 2",
 					"origin": [8, 0, 5],
+					"color": 0,
 					"children": [3, 4, 5]
 				},
 				{
 					"name": "Cane 3",
 					"origin": [0, 0, 0],
+					"color": 0,
 					"children": [6, 7, 8]
 				}
 			]
@@ -206,15 +195,18 @@
 		{
 			"name": "Cane Small",
 			"origin": [0, 0, 0],
+			"color": 0,
 			"children": [
 				{
 					"name": "Cane 1",
 					"origin": [8, 0, 5],
+					"color": 0,
 					"children": [9, 10, 11]
 				},
 				{
 					"name": "Cane 2",
 					"origin": [8, 0, 5],
+					"color": 0,
 					"children": [12, 13, 14]
 				}
 			]
